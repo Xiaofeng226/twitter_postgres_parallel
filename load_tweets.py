@@ -351,7 +351,6 @@ def insert_tweet(connection,tweet):
             'id_urls': id_urls,
             'type': medium['type'],
             })
-    connection.commit()
 
 ################################################################################
 # main functions
